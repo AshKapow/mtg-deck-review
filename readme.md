@@ -40,12 +40,13 @@ pip install -r requirements.txt
 
 1. Create a `config.py` file in the project directory.
 
-2. Obtain an API key from Scryfall by following the instructions on their website: [Scryfall API](https://scryfall.com/docs/api)
+2. Obtain an API key from OpenAI by following the instructions on their website: [OpenAI API](https://platform.openai.com/account/api-keys).
 
-3. Add your Scryfall API key to `config.py`:
+3. Add your OpenAI API key to the config.py file as follows:
 ```
-SCRYFALL_API_KEY = 'your-api-key-here'
+OPENAI_API_KEY = 'your-api-key-here'
 ```
+This OpenAI API key is required for certain functionalities in the project, including the deck review feature that utilizes the OpenAI GPT-3 model.
 
 ## Usage
 Deck Structure
